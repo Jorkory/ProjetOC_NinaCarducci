@@ -91,9 +91,10 @@ body {
 	font-style: italic;
 	width: 80%;
 }
-.about-me__message {
+.about-me__message, .about-me__message strong {
 	width: 80%;
 	font-size: 16px;
+	font-weight: 400;
 }
 
 #gallery {
@@ -112,6 +113,7 @@ body {
 	border-radius:0 ;
 }
 .nav-pills .nav-link {
+	cursor: pointer;
 	color: #000
 }
 .item-column {
@@ -131,7 +133,9 @@ body {
 	height: 100%;
 	object-fit: cover;
 	padding: .5em;
+	cursor: pointer;
 }
+
 .mg-prev, .mg-next {
 	width: 30px;
 	height: 30px;
@@ -159,7 +163,7 @@ body {
 .quote__author {
 	font-family: Spectral;
 	font-weight: 800;
-	font-size: 22px;
+	font-size: 20px;
 }
 
 #services {
